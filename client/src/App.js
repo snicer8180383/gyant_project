@@ -37,7 +37,7 @@ function App() {
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
               <Navbar.Text>
-                {show ? <b><a href="#login">{name}</a> | <span onClick={handleClick} className="logout">Logout</span></b> : ''}
+                {show ? <b><a href="#login" className='no_underline'>{name}</a> | <span onClick={handleClick} className="logout">Logout</span></b> : ''}
               </Navbar.Text>
             </Navbar.Collapse>
           </Container>

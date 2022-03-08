@@ -34,12 +34,17 @@
   display: block !important;
 }
 
-.logout{
-  color:black;
-  cursor:pointer;
+.logout {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.alertDone{
+.no-underline {
+  text-decoration: none;
+}
+
+.alertDone {
   color: red;
-  text-align:center;
+  text-align: center;
 }
