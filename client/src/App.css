@@ -1,0 +1,45 @@
+.title {
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.diagnose {
+  height: fit-content;
+}
+
+.description {
+  text-align: justify;
+  padding: 20px 10px;
+  margin: 0 10px 0 0;
+  border: 1.5px solid black;
+  height: 100%;
+}
+
+.condition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  height: 100%;
+}
+
+.next-btn {
+  width: 50% !important;
+  float: right !important;
+  right: 0 !important;
+  margin-top: 30px !important;
+  font-size: small !important;
+  display: block !important;
+}
+
+.logout{
+  color:black;
+  cursor:pointer;
+}
+
+.alertDone{
+  color: red;
+  text-align:center;
+}
