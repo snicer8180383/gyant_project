@@ -7,6 +7,7 @@ const Conditions = require('./models/condition.model');
 const Cases = require('./models/cases.model');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+const port = 1337;
 
 app.use(cors());
 app.use(express.json());
@@ -94,6 +95,6 @@ app.post('/api/setConditionCase', async (req, res) => {
 	}
 })
 
-app.listen(1337, () => {
-	console.log('Server started on 1337');
+app.listen(port, () => {
+	console.log('Server started on '+port);
 });
